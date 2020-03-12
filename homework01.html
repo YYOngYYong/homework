@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Webpage Title -->
+    <title>Hello, world!</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <style type="text/css">
+        * {
+            font-family: 'Stylish', sans-serif;
+        }
+
+        .wrap {
+            margin-top: 20px;
+            width: 900px;
+            margin: auto;
+        }
+
+        .comment {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .form-post {
+            max-width: 500px;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-color: #e9ecef;
+            border-radius: 0.3rem;
+            border: solid;
+            display: block;
+        }
+
+        .title {
+            background-image: url('https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2019%2F09%2Fapple-iphone-11-release-date-price-specs-info-unveil-2.jpg?q=75&w=800&cbr=1&fit=max');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+        }
+
+        .productTitle {
+            font-size: 60px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+
+        .pont_desc {
+            font-size: 20px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .orderInput {
+            width: 1950px;
+        
+        }
+        .count_width{
+            width: 1950px;
+        }
+        .orderForm{
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        .orderButton{
+            float:none; margin:0 auto
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="jumbotron title">
+
+        </div>
+        <div>
+            <!-- <h1 class="display-4">나홀로 링크 메모장!</h1> -->
+            <p class="lead">
+                <label class="productTitle">아이폰 팝니당</label> 가격 : 1000원/개
+            </p>
+            <p class="pont_desc">
+                아이폰 팝니다.아이폰 팝니다.아이폰 팝니다.아이폰 팝니다.아이폰 팝니다. 아이폰 팝니다.아이폰 팝니다.아이폰 팝니다.아이폰 팝니다.아이폰 팝니다. 아이폰 팝니다.아이폰 팝니다.아이폰
+                팝니다.아이폰 팝니다.아이폰 팝니다.<br>
+                토끼의 간을 어쩌구 저쩌구
+            </p>
+
+
+        </div>
+        <h4 class="productTitle">주문내용</h4>
+        <div>
+            <div class="input-group-prepend orderForm">
+                <span class="input-group-text" id="addon-wrapping">주문자이름</span>
+
+                <input type="text" class="form-control " placeholder="ex)홍길동" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+            </div>
+            <div class="input-group-prepend orderForm">
+                <span class="input-group-text " id="addon-wrapping">수량</span>
+                <div class="count_width">
+                    <select class="form-control " id="exampleFormControlSelect1">
+                        <option value="" disabled selected>수량을 선택해주세요(클릭)</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group-prepend orderForm">
+                <span class="input-group-text" id="addon-wrapping">주소</span>
+
+                <input type="text" class="form-control orderInput" placeholder="ex)안양시 동안구 경수대로0000" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <div class="input-group-prepend orderForm">
+                    <span class="input-group-text" id="addon-wrapping">전화번호</span>
+    
+                    <input type="text" class="form-control orderInput" placeholder="ex)010-123-456." aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                    
+        </div>
+       <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="주문하기">
+       </div>
+       
+</body>
+
+</html>
